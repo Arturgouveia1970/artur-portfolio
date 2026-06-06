@@ -11,7 +11,9 @@ export function Contact() {
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
+    console.log("FORM SUBMIT CLICKED");
+
+    const endpoint = process.env.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT;
 
     if (!endpoint) {
       setStatus("error");
