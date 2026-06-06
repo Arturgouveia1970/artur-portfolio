@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Artur Gouveia Portfolio
 
-## Getting Started
+Professional portfolio for Artur Gouveia — an Angolan-Portuguese full-stack developer focused on ecommerce, inventory systems, admin dashboards and multilingual business software.
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio presents my work as a full-stack developer, with a focus on real business systems for product-based businesses.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The main case study is **AGLOS Commerce OS**, a multilingual ecommerce and stock-management platform built for a family fashion brand targeting European and Portuguese-speaking markets, especially Portugal and Angola.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js
+- TypeScript
+- React
+- Tailwind CSS
+- App Router
 
-## Learn More
+## Featured Case Study
 
-To learn more about Next.js, take a look at the following resources:
+### AGLOS Commerce OS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A full-stack ecommerce and inventory platform with:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Customer storefront
+- Product catalogue
+- Cart and checkout flow
+- Customer account area
+- Admin dashboard
+- Product and variant management
+- Inventory tracking
+- Stock movements
+- Stocktakes
+- Order management
+- Reports and financial insights
+- Role-based access control
 
-## Deploy on Vercel
+The production repository is private because it is connected to a real family business. A public case study is available in this portfolio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/
+  app/
+    page.tsx
+    work/
+      aglos-commerce-os/
+        page.tsx
+  components/
+    About.tsx
+    Contact.tsx
+    FeaturedWork.tsx
+    Footer.tsx
+    Header.tsx
+    Hero.tsx
+    Services.tsx
+  data/
+    content.ts
+public/
+  images/
+    aglos/
