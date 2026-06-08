@@ -86,6 +86,6 @@ export const profile = {
     {
       title: "Multilingual Business Apps",
       description:
-        "English and Portuguese-first systems for European, Portuguese and Angolan markets.",
+        "English and Portuguese-first systems for European, Portuguese-speaking markets.",
     },
   ];

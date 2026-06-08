@@ -16,7 +16,7 @@ export function About() {
 
         <div className="space-y-6 text-lg leading-8 text-[#b8b8b8]">
           <p>
-            I am a Angolan-Portuguese full-stack developer focused on ecommerce,
+            I am an Angolan-Portuguese full-stack developer focused on ecommerce,
             inventory and business operations systems.
           </p>
 
