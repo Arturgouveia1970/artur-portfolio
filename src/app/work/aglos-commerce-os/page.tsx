@@ -29,37 +29,37 @@ const stack = [
 ];
 
 const screenshots = [
-    {
-      src: "/images/aglos/aglos-storefront.png",
-      title: "Storefront",
-      description: "Premium fashion storefront for AGLOS products.",
-    },
-    {
-      src: "/images/aglos/aglos-admin-dashboard.png",
-      title: "Admin dashboard",
-      description: "Control centre for business operations.",
-    },
-    {
-      src: "/images/aglos/aglos-orders.png",
-      title: "Orders",
-      description: "Order management for customer purchases.",
-    },
-    {
-      src: "/images/aglos/aglos-inventory.png",
-      title: "Inventory",
-      description: "Stock tracking, restock workflows and product control.",
-    },
-    {
-      src: "/images/aglos/aglos-reports.png",
-      title: "Reports",
-      description: "Sales, financial and product performance reports.",
-    },
-    {
-      src: "/images/aglos/aglos-checkout.png",
-      title: "Checkout",
-      description: "Customer checkout and payment confirmation flow.",
-    },
-  ];
+  {
+    src: "/images/aglos/aglos-storefront.png",
+    title: "Storefront",
+    description: "Premium fashion storefront for AGLOS products.",
+  },
+  {
+    src: "/images/aglos/aglos-admin-dashboard.png",
+    title: "Admin dashboard",
+    description: "Control centre for business operations.",
+  },
+  {
+    src: "/images/aglos/aglos-orders.png",
+    title: "Orders",
+    description: "Order management for customer purchases.",
+  },
+  {
+    src: "/images/aglos/aglos-inventory.png",
+    title: "Inventory",
+    description: "Stock tracking, restock workflows and product control.",
+  },
+  {
+    src: "/images/aglos/aglos-reports.png",
+    title: "Reports",
+    description: "Sales, financial and product performance reports.",
+  },
+  {
+    src: "/images/aglos/aglos-checkout.png",
+    title: "Checkout",
+    description: "Customer checkout and payment confirmation flow.",
+  },
+];
 
 export default function AglosCaseStudyPage() {
   return (
@@ -83,9 +83,58 @@ export default function AglosCaseStudyPage() {
 
           <p className="mt-8 text-xl leading-9 text-[#b8b8b8]">
             A multilingual ecommerce and stock-management platform built for a
-              family fashion brand targeting European and Portuguese-speaking markets,
-              especially Portugal and Angola.
+            family fashion brand targeting European and Portuguese-speaking
+            markets, especially Portugal and Angola.
           </p>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[0.8fr_1.2fr]">
+          <div>
+            <p className="text-sm font-medium uppercase tracking-[0.32em] text-[#c7b9a5]">
+              My role
+            </p>
+          </div>
+
+          <div className="space-y-6 text-lg leading-8 text-[#b8b8b8]">
+            <h2 className="text-3xl font-semibold tracking-[-0.04em] text-[#f5f3ee] md:text-5xl">
+              Full-stack product development
+            </h2>
+
+            <p>
+              I designed and built the full-stack AGLOS platform, including the
+              Next.js storefront, customer account area, admin dashboard,
+              FastAPI backend, PostgreSQL database, authentication, role-based
+              permissions, inventory logic, stock movements, stocktakes,
+              reporting workflows and production-readiness verification.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[0.8fr_1.2fr]">
+          <div>
+            <p className="text-sm font-medium uppercase tracking-[0.32em] text-[#c7b9a5]">
+              Technical depth
+            </p>
+          </div>
+
+          <div className="space-y-6 text-lg leading-8 text-[#b8b8b8]">
+            <h2 className="text-3xl font-semibold tracking-[-0.04em] text-[#f5f3ee] md:text-5xl">
+              More than a storefront
+            </h2>
+
+            <p>
+              AGLOS was built as a real business operations platform, not only a
+              storefront. The backend handles product variants, order data,
+              stock quantities, stock movements, stocktakes, refunds,
+              permissions and reporting logic, while the frontend provides
+              separate customer and admin workflows with a clean,
+              production-focused interface.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -159,42 +208,43 @@ export default function AglosCaseStudyPage() {
 
       <section className="border-t border-white/10 px-6 py-20">
         <div className="mx-auto max-w-7xl">
-            <div className="max-w-3xl">
+          <div className="max-w-3xl">
             <p className="text-sm font-medium uppercase tracking-[0.32em] text-[#c7b9a5]">
-                Interface
+              Interface
             </p>
 
             <h2 className="mt-4 text-4xl font-semibold tracking-[-0.05em] md:text-6xl">
-                Storefront and admin workflows designed for a real product business.
+              Storefront and admin workflows designed for a real product
+              business.
             </h2>
-            </div>
+          </div>
 
-            <div className="mt-12 grid gap-8 md:grid-cols-2">
+          <div className="mt-12 grid gap-8 md:grid-cols-2">
             {screenshots.map((screenshot) => (
-                <article
+              <article
                 key={screenshot.src}
                 className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-white/[0.03]"
-                >
+              >
                 <img
-                    src={screenshot.src}
-                    alt={screenshot.title}
-                    className="aspect-[16/10] w-full object-cover"
+                  src={screenshot.src}
+                  alt={screenshot.title}
+                  className="aspect-[16/10] w-full object-cover"
                 />
 
                 <div className="p-5">
-                    <h3 className="text-xl font-semibold tracking-[-0.03em]">
+                  <h3 className="text-xl font-semibold tracking-[-0.03em]">
                     {screenshot.title}
-                    </h3>
+                  </h3>
 
-                    <p className="mt-2 text-sm leading-6 text-[#b8b8b8]">
+                  <p className="mt-2 text-sm leading-6 text-[#b8b8b8]">
                     {screenshot.description}
-                    </p>
+                  </p>
                 </div>
-                </article>
+              </article>
             ))}
-            </div>
+          </div>
         </div>
-        </section>
+      </section>
 
       <section className="border-t border-white/10 px-6 py-20">
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[0.8fr_1.2fr]">
@@ -240,7 +290,8 @@ export default function AglosCaseStudyPage() {
           </div>
         </div>
       </section>
-      <Footer/>
+
+      <Footer />
     </main>
   );
 }

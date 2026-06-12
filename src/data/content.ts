@@ -89,3 +89,18 @@ export const profile = {
         "English and Portuguese-first systems for European, Portuguese-speaking markets.",
     },
   ];
+
+  export const aglosCaseStudy = {
+    myRole: {
+      eyebrow: "My role",
+      title: "Full-stack product development",
+      description:
+        "I designed and built the full-stack AGLOS platform, including the Next.js storefront, customer account area, admin dashboard, FastAPI backend, PostgreSQL database, authentication, role-based permissions, inventory logic, stock movements, stocktakes, reporting workflows and production-readiness verification.",
+    },
+    technicalDepth: {
+      eyebrow: "Technical depth",
+      title: "More than a storefront",
+      description:
+        "AGLOS was built as a real business operations platform, not only a storefront. The backend handles product variants, order data, stock quantities, stock movements, stocktakes, refunds, permissions and reporting logic, while the frontend provides separate customer and admin workflows with a clean, production-focused interface.",
+    },
+  };

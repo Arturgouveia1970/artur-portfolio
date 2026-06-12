@@ -60,10 +60,10 @@ export function FeaturedWork() {
             </p>
 
             <ul className="mt-6 space-y-4 text-sm leading-7 text-[#d8d3ca]">
-              <li>Storefront, cart and customer order experience.</li>
-              <li>Admin dashboard for products, orders and reporting.</li>
-              <li>Inventory workflows with stock movements and stocktakes.</li>
-              <li>Built as a real system for a family fashion business.</li>
+              <li>Full-stack storefront, cart, checkout and customer account flow.</li>
+              <li>Admin dashboard for orders, products, variants and reporting.</li>
+              <li>Inventory system with stock movements, restocks and stocktakes.</li>
+              <li>Built as a real operations platform for a family fashion business.</li>
             </ul>
           </div>
         </article>
